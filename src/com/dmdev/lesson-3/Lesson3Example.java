@@ -4,6 +4,5 @@ public class Lesson3Example {
         int value2 = 3;
         int sum = value % value2;
         System.out.println(sum);
-        
     }
 }
