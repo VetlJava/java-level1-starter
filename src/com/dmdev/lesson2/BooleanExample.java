@@ -1,3 +1,5 @@
+package com.dmdev.lesson2;
+
 public class BooleanExample {
     public static void main(String[] args) {
         int value1 = 0;

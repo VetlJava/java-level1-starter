@@ -1,3 +1,5 @@
+package com.dmdev.lesson2;
+
 public class Lesson2Example {
     public static void main(String[] args) {
         int temp;
