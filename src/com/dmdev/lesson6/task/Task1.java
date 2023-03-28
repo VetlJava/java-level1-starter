@@ -9,6 +9,20 @@ public class Task1 {
         int value = 5;
         int result = factorial(value);
         System.out.println(result);
+
+        int result2 = factorialWhile(value);
+        System.out.println(result2);
+    }
+
+    public static int factorialWhile (int value) {
+        int result = 1;
+        int i = 1;
+        while (i <= value) {
+            result *= i;
+            i++;
+        }
+
+        return result;
     }
 
     public static int factorial(int value) {
