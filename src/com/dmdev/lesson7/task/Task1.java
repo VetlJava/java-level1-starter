@@ -8,7 +8,15 @@ public class Task1 {
         int[] values = {1, 5, 7, 9, 11};
         printArray(values);
         printArrayForeach(values);
+        printArrayReverse(values);
     }
+    public static void printArrayReverse(int[] values) {
+        for (int i = values.length - 1; i >= 0 ; i--) {
+            System.out.print(values[i] + " ");
+        }
+        System.out.println();
+    }
+
     public static void  printArray(int[] values){
         for (int i = 0; i < values.length; i++) {
             System.out.print(values[i] + " ");
