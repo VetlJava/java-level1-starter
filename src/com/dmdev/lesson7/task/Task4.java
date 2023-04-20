@@ -19,7 +19,6 @@ public class Task4 {
     public static int calculateSumBetween(int[] values) {
         int minIndex = findMinIndex(values);
         int maxIndex = findMaxIndex(values);
-
 //      если в массиве первое значение больше второго
         if (minIndex > maxIndex) {
             int temp = minIndex;
